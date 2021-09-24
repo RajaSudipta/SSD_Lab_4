@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: slategrey;
+  padding: 20px 30px;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 25px;
+}
+
+.header:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+input {
+  width: 65%;
+  padding: 15px;
+  margin: 0px;
+  border: black;
+  float: left;
+  font-size: 18px;
+}
+
+.button {
+  width: 20%;
+  padding: 15px;
+  background-color: darkkhaki;
+  color: #666;
+  float: left;
+  text-align: center;
+  font-size: 18px;
+}
+
+.changeFontbutton {
+  width: 15%;
+  padding: 15px;
+  background-color: darkseagreen;
+  color: #666;
+  float: left;
+  text-align: center;
+  font-size: 18px;
+}
+
+ul{
+  padding: 4px;
+  margin: 4px;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eeef;
+  font-size: 20px;
+}
+
+ul li:hover {
+  background-color: lightblue;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 13px 17px 13px 17px;
+  outline-color: gray;
+  text-decoration-color: seagreen;
+}
